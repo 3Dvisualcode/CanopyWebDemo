@@ -99,12 +99,7 @@
 
 	<script src="app/babylon.js"></script>
 	<script src="app/babylonjs.loaders.min.js"></script>
-
-
-
-
-
-<script src="app/appbild.js"></script>
+  <script src="app/appbild.js"></script>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -1252,11 +1247,22 @@ return false;">
 
 		</div>
 
+
+
 <div style="display:none;">
 
 
+
+
+
+
+
+
+
+
+
 		<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock6" onclick="switchUI(6);">
-			<div class="builderBlockTextInactive" id="builderBlockText6">Materiaallijst</div>
+			<div class="builderBlockTextInactive" id="builderBlockText6">6. Materiaallijst</div>
 			<div class="builderArrowInactive" id="builderArrow6"></div>
 		</div>
 
@@ -1291,7 +1297,7 @@ return false;">
 				<div class="itemListLeft">Staanders</div>
 				<div class="itemListCenter"> 15 x 15 cm </div>
 				<div id="item_vertical_beam" class="itemListRight"></div>
-				
+
 			</div>
 
 
@@ -1399,39 +1405,39 @@ return false;">
 			<div class="itemDiv"  style="display:none;">
 				<div class="itemListLeft">Boeideel</div>
 				<div class="itemListCenter" >2.2 x 20 cm</div>
-				<div id="item_total_bo" class="itemListRight"></div>
+				<div id="item_total_bo" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 
 			<div class="itemDiv"  style="display:none;">
 				<div class="itemListLeft">Boeideel</div>
 				<div class="itemListCenter" id="item_borders1M"></div>
-				<div id="item_borders1" class="itemListRight"></div>
+				<div id="item_borders1" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 			<div class="itemDiv" style="display:none;">
 				<div class="itemListLeft">Boeideel</div>
 				<div class="itemListCenter" id="item_borders2M"></div>
-				<div id="item_borders2" class="itemListRight"></div>
+				<div id="item_borders2" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 			<div class="itemDiv"  style="display:none;">
 				<div class="itemListLeft">Aluminium trim (new)</div>
 				<div class="itemListCenter" id="item_alum_totalm"></div>
-				<div id="item_alum_total" class="itemListRight"></div>
+				<div id="item_alum_total" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 
 			<div class="itemDiv" style="display:none;">
 				<div class="itemListLeft">Aluminium trim</div>
 				<div class="itemListCenter" id="item_alum1M"></div>
-				<div id="item_alum1" class="itemListRight"></div>
+				<div id="item_alum1" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 			<div class="itemDiv" style="display:none;">
 				<div class="itemListLeft">Aluminium trim</div>
 				<div class="itemListCenter" id="item_alum2M"></div>
-				<div id="item_alum2" class="itemListRight"></div>
+				<div id="item_alum2" class="itemListRight"></div><!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
 			</div>
 
 
@@ -1574,6 +1580,10 @@ return false;">
 		</div>
 
 </div>
+
+
+
+
 		<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock8" onclick="switchUI(8);">
 			<div class="builderBlockTextInactive" id="builderBlockText8">Opslaan + offerte</div>
 			<div class="builderArrowInactive" id="builderArrow8"></div>
@@ -1627,33 +1637,35 @@ return false;">
 	<div class="" id="loaderBG"></div>
 	<div class="loaderStyle" id="loader1"></div>
 	<div class="loaderStyle2" id="loader2"></div>
-	
+
+
 <script>
-function onOrientationChange() {
-  let width  = document.documentElement.clientWidth;
-  let height = document.documentElement.clientHeight;
-  let landscape = width > height;
-  let viewportmeta = document.querySelector('meta[name="viewport"]');
+	function onOrientationChange() {
+	  let width  = document.documentElement.clientWidth;
+	  let height = document.documentElement.clientHeight;
+	  let landscape = width > height;
+	  let viewportmeta = document.querySelector('meta[name="viewport"]');
 
-if(landscape)
-{
-// adding zoom 0.5
-//if (width < 900)
-viewportmeta.content = "width=device-width, initial-scale=0.33, user-scalable=no";
-}
-else
-{
-document.getElementById('optionsBox').style.display='none';
+	if(landscape)
+	{
+	// adding zoom 0.5
+	//if (width < 900)
+	viewportmeta.content = "width=device-width, initial-scale=0.33, user-scalable=no";
+	}
+	else
+	{
+	document.getElementById('optionsBox').style.display='none';
 
-//if (width < 980)
-viewportmeta.content = "width=468, user-scalable=no";
-}
-}
-window.addEventListener('orientationchange', onOrientationChange);
-window.addEventListener('resize', onOrientationChange);
+	//if (width < 980)
+	viewportmeta.content = "width=468, user-scalable=no";
+	}
+	}
+	window.addEventListener('orientationchange', onOrientationChange);
+	window.addEventListener('resize', onOrientationChange);
 
 
-onOrientationChange();
-</script>	
+	onOrientationChange();
+</script>
+
 </body>
 </html>
