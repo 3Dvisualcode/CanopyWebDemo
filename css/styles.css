@@ -522,6 +522,8 @@ html {
   background-repeat: no-repeat;
 }
 
+
+
 #iconInfo {
   display: inherit;
   width: 48px;
@@ -897,17 +899,30 @@ html {
 
 
 .optionsBoxFullScreen {
-  left: calc((100vw + 468px)/2 - 632px) !important; 	
+  left: calc((100vw + 468px)/2 - 632px) !important; 
   /*top: calc(100vh - 120px) !important; 
   transform: scale(0.875); */
 }
 
+.btn.lightbox-222553148237354{
+  color:white;
+ padding-right: 105%;
+ padding-bottom: 15%;
+ margin-top: 0%;
+ margin-left: -5%;
+ background-color: #f3f3f3;
+}
+.btn.lightbox-222553148237354:hover { background-color: rgb(255, 0, 0); color:white;}
 
 .iconFullScreenFullScreen {
-  right: 20px !important;	
+  display: block !important;	
+  background-image: url("../css/icon_full_back.png") !important;
+  background-repeat: no-repeat !important;
+  right: 20px !important;
 }
 
 .iconInfoFullScreen {
+  
   display: block !important;
   right: 20px !important;
 }
@@ -939,6 +954,9 @@ html {
 }
 
 .iconFullScreenFullScreen {
+    display: block !important;	
+  background-image: url("../css/icon_full_back.png") !important;	
+  background-repeat: no-repeat !important;	
   right: calc(100vw - 58px) !important;	
   top: calc(100% - 58px) !important; 
 }
@@ -1056,6 +1074,7 @@ html {
   }
 
   #iconFullScreen {
+    
     transform: scale(0.875);
     top: calc(100% - 398px);
     left: 10px;
