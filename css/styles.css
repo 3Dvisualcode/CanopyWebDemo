@@ -906,13 +906,37 @@ html {
 
 .btn.lightbox-222553148237354{
   color:white;
- padding-right: 105%;
+ padding-right: 61.44%;
  padding-bottom: 15%;
  margin-top: 0%;
- margin-left: -5%;
+ margin-left: 0%;
  background-color: #f3f3f3;
+ position: absolute;
 }
-.btn.lightbox-222553148237354:hover { background-color: #ff0200;}
+
+.TextButton{
+  margin-top: 3px;
+  height: 20px;
+  width: 240px;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 55px;
+ text-transform: uppercase;
+ color: #170E0E;
+}
+.btn.lightbox-222553148237354:hover { background-color: #ff0000;}
+
+
+#red {
+  background-color:#f3f3f3 !important
+}
+
+#red:hover{
+  background-color:#ff0000 !important
+}
+
 
 
 
