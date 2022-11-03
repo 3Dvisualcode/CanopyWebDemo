@@ -915,12 +915,14 @@ html {
 .btn.lightbox-222553148237354:hover { background-color: #ff0200;}
 
 
-.red {
+
+#red {
   background-color:#f3f3f3 !important
 }
 
-.red:hover{background-color:#ff0000 !important}
-
+#red:hover{
+  background-color:#ff0000 !important
+}
 
 .iconFullScreenFullScreen {
   display: block !important;	
