@@ -17,14 +17,6 @@
   width: 200px;
 }
 
-#red {
-  background-color:#f3f3f3 !important;
-}
-
-#red:hover{
-  background-color:#ff0000 !important;
-}
-
 #uiSpace {
   width: 468px;
 
