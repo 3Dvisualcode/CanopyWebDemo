@@ -966,10 +966,10 @@ html {
 
 .canvas2dFullScreen {
   position: absolute !important;
-  height: 100vmin !important;
-  width: 100vmin !important;
-  top: calc((100% - 100vmin)/2) !important;
-  left: 0px !important;
+  height: 43vmin !important;
+  width: 43vmin !important;
+  top: calc((100% - 50vmin)/2) !important;
+  left: 130px !important;
   overflow-x: hidden;
   overflow-y: hidden;
 }
