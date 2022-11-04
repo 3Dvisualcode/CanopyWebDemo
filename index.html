@@ -1691,5 +1691,27 @@ return false;">
 
 	onOrientationChange();
 </script>
+	
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const images = new Array();
+
+    function preloadImages(...images) {
+        images.forEach((image, i) => {
+            image = new Image();
+            image.src = preloadImages.arguments[i];
+        });
+    };
+
+    // Preload IMG
+    preloadImages(
+        "css/1_black.png",  "css/2_red.png", "css/3_anthracite.png", "css/4_black_glazed.png", "css/5_red_glazed.png", "css/arrow_active.png", "css/arrow_inactive.png", "css/buitenverblijven_logo.png", "css/checkboxactive.png", "css/cross.png", "css/elem_0.png", "css/elem_1_1.png", "css/elem_1.png", "css/elem_2_2.png", "css/icon_2d_active.png", "css/icon_2d_inactive.png", "css/icon_2d.png",  "css/icon_3d_active.png", "css/icon_3d_inactive.png", "css/icon_3d.png", "css/icon_deepth.png", "css/icon_full_back.png", "css/icon_full.png", "css/icon_zoom1.png",  "css/icon_zoom2.png", "css/logo.png", "css/logo.svg", "css/logotype.png",
+		"css/elem_2.png", "css/elem_3_3.png", "css/elem_3.png", "css/elem_4_4.png", "css/elem_4.png", "css/elem_5_5.png", "css/elem_5.png", "css/elem_6_6.png", "css/elem_6.png", "css/house_0.png", "css/house_1.png", "css/house_2.png", "css/house_4.png", "css/house_5.png", "css/house_6.png", "css/house_left.png", "css/house_right.png", "css/house1.png", "css/house2.png",  "css/icon_information.png", "css/icon_minus.png", "css/icon_plus.png", "css/icon_shift_1.png",  "css/icon_shift_2.png", "css/icon_shift_3.png", "css/icon_shift_4.png", "css/icon_width.png",  "css/pipe_Metal.png", "css/pipe_Plastic.png", "css/texts.png", "css/wall_dark.png", "css/wall_light.png"
+    );
+});
+
+</script>
+	
 </html>
 </body>
