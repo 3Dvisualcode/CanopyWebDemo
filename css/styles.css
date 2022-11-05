@@ -970,7 +970,7 @@ html {
   height: 43vmin !important;
   width: 43vmin !important;
   top: calc((100% - 50vmin)/2) !important;
-  left: 130px !important;
+  left: calc(100vmin - 330px) !important;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -1020,15 +1020,16 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vw;
-    height: calc(100% - 213px);
+    height: calc(100% - 290px);
     outline: none;
     top: -54px;
-    left: 3px;
+    left: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     /* mobile webkit */
     background: transparent;
+    transform: scale(1.0);
   }
 
   #canvas2d {
