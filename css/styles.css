@@ -1034,7 +1034,7 @@ html {
 
   #canvas2d {
     position: absolute;
-    width: 100vmin;
+    width: 100vw;
     height: 100vmin;
     top: 0px;
     left: 0px;
