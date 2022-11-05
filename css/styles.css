@@ -1034,10 +1034,10 @@ html {
 
   #canvas2d {
     position: absolute;
-    width: 43%;
-    height: 43vmin;
-    top: calc(-230px + 50%);
-    left: 135px;
+    width: 45%;
+    height: 19.2%;
+    top: 156px;
+    left: 125px;
     outline: none;
     overflow-x: hidden;
     overflow-y: hidden;
