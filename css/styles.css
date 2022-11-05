@@ -968,9 +968,9 @@ html {
 .canvas2dFullScreen {
   position: absolute !important;
   height: 43vmin !important;
-  width: 43vmin !important;
+  width: calc(100% - 262px) !important;
   top: calc((100% - 50vmin)/2) !important;
-  left: calc(100vmin - 330px) !important;
+  left: calc(100% - 330px) !important;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -1020,9 +1020,9 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vw;
-    height: calc(100% - 290px);
+    height: calc(100% - 394px);
     outline: none;
-    top: -54px;
+    top: 54px;
     left: 0;
     overflow-x: hidden;
     overflow-y: hidden;
