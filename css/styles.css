@@ -1021,7 +1021,7 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: calc(100% - 305px);
+    height: calc(100% - 405px);
     outline: none;
     top: 0px;
     left: 0px;
@@ -1036,7 +1036,7 @@ html {
     position: relative;
     width: 100vmin;
     height: 100vmin;
-    top: calc((100% - 760px)/2);
+    top: calc((100% - 785px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1071,16 +1071,12 @@ html {
     overflow-y: scroll;
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
     padding-bottom: 15px;
+    
   }
 
   
 
   #builderOptions7{
-    overflow-y: hidden;
-  }
-
-  .itemListPrice {
-    padding-bottom: 15px;
     overflow-y: hidden;
   }
 
