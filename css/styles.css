@@ -994,7 +994,7 @@ html {
   position: relative !important;
   width: 100vmin !important;
   height: 100vmin !important;
-  top: calc((100% - 720px)/2) !important;
+  top: calc((100% - 750px)/2) !important;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 }
