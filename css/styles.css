@@ -986,6 +986,8 @@ html {
   background-repeat: no-repeat !important;	
   right: calc(100vw - 58px) !important;	
   top: calc(100% - 58px) !important; 
+  overflow-x: hidden !important; 
+  overflow-y: hidden !important; 
 }
 
 .iconZoomInFullScreen {
@@ -1033,6 +1035,8 @@ html {
     width: 100vmin;
     height: 80vmin;
     top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   #canvas2d {
@@ -1119,6 +1123,7 @@ html {
     left: 10px;
     background-image: url("../css/icon_full.png");
     background-repeat: no-repeat;
+    overflow-x: hidden;
     overflow-y: hidden;
   }
 
