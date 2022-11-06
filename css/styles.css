@@ -955,9 +955,7 @@ html {
   right: 20px !important;
 }
 
-@media screen and ( max-width: 468px ), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2),
-(min-resolution: 2dppx),
-(min-resolution: 192dpi){
+@media screen and ( max-width: 468px ){
 
 .optionsBoxFullScreen {
   display: none !important;
@@ -1035,10 +1033,11 @@ html {
   }
 
   #canvas2Ddiv{
+    position: relative;
     width: 100vmin;
-    height: 75vmin;
-    overflow: hidden;
-    
+    height: 100vmin;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   #canvas2d {
