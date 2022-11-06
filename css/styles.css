@@ -1035,7 +1035,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 100vmin;
+    height: 80vmin;
+    top: 57px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
