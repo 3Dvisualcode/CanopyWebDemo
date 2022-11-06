@@ -955,6 +955,7 @@ html {
   right: 20px !important;
 }
 
+
 @media screen and ( max-width: 468px ){
 
 .optionsBoxFullScreen {
@@ -1035,11 +1036,12 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 100vmin;
-    top: calc((100% - 785px)/2);
+    height: 70vmin;
+    top: calc((80% - 590px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
+
 
   #canvas2d {
     position: absolute;
