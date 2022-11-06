@@ -1062,7 +1062,7 @@ html {
 
   #builderUI {
     position: fixed;
-    top: calc(100% - 343px);
+    top: calc(100% - 404px);
     width: 468px;
     height: 100vmin;
     left: 0;
@@ -1072,6 +1072,8 @@ html {
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
     padding-bottom: 15px;
   }
+
+  
 
   #builderOptions7{
     overflow-y: hidden;
@@ -1121,7 +1123,7 @@ html {
   #iconFullScreen {
     
     transform: scale(0.875);
-    top: calc(100% - 398px);
+    top: calc(100% - 460px);
     left: 10px;
     background-image: url("../css/icon_full.png");
     background-repeat: no-repeat;
