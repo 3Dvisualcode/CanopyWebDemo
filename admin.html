@@ -110,8 +110,9 @@
 
 <body>
 
-	<canvas id="renderCanvas"></canvas>
-	<canvas id="canvas2d" width="1200" height="1200" style="display: none;"></canvas>
+
+	<canvas id="renderCanvas" style="display: block;"></canvas>
+	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;"><canvas id="canvas2d" width="1200" height="1200"></canvas></div>
 
 	<div id="waterMark" style="display:none !important;"></div>
 
@@ -1720,5 +1721,34 @@ return false;">
 
 </script>
 	
+<script>
+
+function switch2D()
+{
+document.getElementById('renderCanvas').style.display='none';
+document.getElementById('canvas2Ddiv').style.display='block';
+
+document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_active.png")';
+document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_inactive.png")';
+
+
+
+document.getElementById('iconZoomIn').style.display='none';
+document.getElementById('iconZoomOut').style.display='none';
+}
+
+function switch3D()
+{
+document.getElementById('renderCanvas').style.display='block';
+document.getElementById('canvas2Ddiv').style.display='none';
+
+document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_inactive.png")';
+document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_active.png")';
+
+document.getElementById('iconZoomIn').style.display='block';
+document.getElementById('iconZoomOut').style.display='block';
+
+}
+</script>
 </body>
 </html>
