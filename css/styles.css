@@ -990,6 +990,15 @@ html {
   overflow-y: hidden !important; 
 }
 
+.canvas2Ddiv{
+  position: relative !important;
+  width: 100vmin !important;
+  height: 100vmin !important;
+  top: calc((100% - 720px)/2) !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
 .iconZoomInFullScreen {
   right: 10px !important;	
   top: 72px !important;
@@ -1019,7 +1028,7 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: calc(100% - 345px);
+    height: calc(100% - 305px);
     outline: none;
     top: 0px;
     left: 0px;
@@ -1034,15 +1043,15 @@ html {
     position: relative;
     width: 100vmin;
     height: 80vmin;
-    top: 0;
+    top: calc((100% - 720px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
 
   #canvas2d {
     position: absolute;
-    width: 100vw;
-    height: 100vw;
+    width: 100vmin;
+    height: 100vmin;
     top: 0px;
     left: 0px;
     outline: none;
