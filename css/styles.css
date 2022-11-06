@@ -1010,25 +1010,22 @@ html {
   }
 
   html, body {
-    display: fixed;
-    min-height: -webkit-fill-available;
     overflow-x: hidden;
     overflow-y: hidden;
   }
   
   #renderCanvas {
     position: absolute;
-    width: 100vw;
-    height: calc(100% - 394px);
+    width: 100vmin;
+    height: calc(100% - 345px);
     outline: none;
-    top: 54px;
-    left: 0;
+    top: 0px;
+    left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     /* mobile webkit */
     background: transparent;
-    transform: scale(1.0);
   }
 
   #canvas2Ddiv{
