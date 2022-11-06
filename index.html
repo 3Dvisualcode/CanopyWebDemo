@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<meta name="viewport" content="user-scalable=no">
+<meta name="viewport" content="user-scalable=no ">
 <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
 	<title>Buitenverblijven 3D product configurator</title>
 	<style>
@@ -110,9 +110,8 @@
 
 <body>
 
-	<canvas id="renderCanvas"></canvas>
-	<div class="canvas2Ddiv" id="canvas2Ddiv" ><canvas id="canvas2d" width="1200" height="1200" style="display: none;"></canvas></div>
-
+	<canvas id="renderCanvas" style="display: block;"></canvas>
+	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;"><canvas id="canvas2d" width="1200" height="1200"></canvas></div>
 
 	<div id="waterMark" style="display:none !important;"></div>
 
@@ -1683,7 +1682,7 @@ return false;">
 	document.getElementById('optionsBox').style.display='none';
 
 	//if (width < 980)
-	viewportmeta.content = "width=468, user-scalable=no";
+	viewportmeta.content = "width=468px, user-scalable=no";
 	}
 	}
 	window.addEventListener('orientationchange', onOrientationChange);
@@ -1692,10 +1691,10 @@ return false;">
 
 	onOrientationChange();
 </script>
-	
+
 <script>
 
-    document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     const images = new Array();
 
     function preloadImages(...images) {
@@ -1713,6 +1712,48 @@ return false;">
 });
 
 </script>
-	
+
+<!-- <script>window.devicePixelRatio
+
+if( window.devicePixelRatio>1 ){
+var img=document.getElementsByName('img');
+for(i=0; i<img.length;i++){
+img[i].width=img[i].width/2;
+img[i].height=img[i].height/2;
+}
+}</script> -->
+<script>
+// let button1 = document.getElementById('canvas2Ddivdocument');
+// let button2 = document.getElementById('renderCanvas');
+
+
+function switch2D()
+{
+document.getElementById('renderCanvas').style.display='none';
+document.getElementById('canvas2Ddiv').style.display='block';
+
+document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_active.png")';
+document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_inactive.png")';
+
+
+
+document.getElementById('iconZoomIn').style.display='none';
+document.getElementById('iconZoomOut').style.display='none';
+}
+
+function switch3D()
+{
+document.getElementById('renderCanvas').style.display='block';
+document.getElementById('canvas2Ddiv').style.display='none';
+
+document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_inactive.png")';
+document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_active.png")';
+
+document.getElementById('iconZoomIn').style.display='block';
+document.getElementById('iconZoomOut').style.display='block';
+
+}
+
+</script>
 </html>
 </body>
