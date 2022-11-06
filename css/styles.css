@@ -955,7 +955,9 @@ html {
   right: 20px !important;
 }
 
-@media screen and ( max-width: 468px ) {
+@media screen and ( max-width: 468px ), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi){
 
 .optionsBoxFullScreen {
   display: none !important;
@@ -1030,6 +1032,13 @@ html {
     /* mobile webkit */
     background: transparent;
     transform: scale(1.0);
+  }
+
+  #canvas2Ddiv{
+    width: 100vmin;
+    height: 75vmin;
+    overflow: hidden;
+    
   }
 
   #canvas2d {
@@ -1144,9 +1153,5 @@ html {
     margin-top: 16px; 
     margin-bottom: 16px; 
     margin-left: 145px;
-  }
-  #canvas2Ddiv{
-    width: 100vmin;
-    height: 75vmin;
   }
 }
