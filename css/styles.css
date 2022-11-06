@@ -990,14 +990,7 @@ html {
   overflow-y: hidden !important; 
 }
 
-.canvas2Ddiv{
-  position: relative !important;
-  width: 100vmin !important;
-  height: 100vmin !important;
-  top: calc((100% - 750px)/2) !important;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-}
+
 
 .iconZoomInFullScreen {
   right: 10px !important;	
@@ -1042,8 +1035,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 80vmin;
-    top: calc((100% - 720px)/2);
+    height: 100vmin;
+    top: calc((100% - 760px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
