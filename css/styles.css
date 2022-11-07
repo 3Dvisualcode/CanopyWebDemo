@@ -974,12 +974,11 @@ html {
   overflow-y: hidden !important;
 }
 .canvas2dDivFullScreen {
+  display: block !important;
+  top: calc(50vmax/2) !important;
+  position: absolute !important;
   width: 100vmin !important;
   height: 100vmin !important;
-  top: 125px !important;
-  left: 0 !important;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
 }
 
 .iconInfoFullScreen {    
@@ -1043,8 +1042,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 45vmin;
-    top: calc((100% - 600px)/2);
+    height: calc(100% - 404px);
+    top: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1054,7 +1053,7 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-    top: -130px;
+    top: 0;
     left: 0px;
     outline: none;
     overflow-x: hidden;
