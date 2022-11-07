@@ -959,9 +959,10 @@ html {
 
  #canvas2Ddiv{
     position: relative;
-    width: 100vmin;
-    height: calc(100% - 404px);
-    top: 0px;
+    width: 100vw;
+    height: 55vw;
+    top: 56px;
+    left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1013,7 +1014,7 @@ html {
 }
 
 .iconFullScreenFullScreen {
-    display: block !important;	
+  display: block !important;	
   background-image: url("../css/icon_full_back.png") !important;	
   background-repeat: no-repeat !important;	
   right: calc(100vw - 58px) !important;	
@@ -1053,9 +1054,9 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: calc(100% - 405px);
+    height: calc(100vh - 404px);
     outline: none;
-    top: 25px;
+    top: 56px;
     left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1067,7 +1068,7 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: calc(100% - 404px - 56px);
+    height: calc(100vh - 404px);
     top: 56px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1078,7 +1079,7 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-    top: 0;
+    top: calc(100vh - 404px);
     left: 0px;
     outline: none;
     overflow-x: hidden;
