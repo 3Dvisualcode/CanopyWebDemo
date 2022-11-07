@@ -1037,7 +1037,7 @@ html {
     position: relative;
     width: 100vmin;
     height: 45vmin;
-    top: calc((100% - 560px)/2);
+    top: calc((100% - 660px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
