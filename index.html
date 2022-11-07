@@ -1682,7 +1682,7 @@ return false;">
 	document.getElementById('optionsBox').style.display='none';
 
 	//if (width < 980)
-	viewportmeta.content = "width=468px, user-scalable=no";
+	viewportmeta.content = "width=468, user-scalable=no";
 	}
 	}
 	window.addEventListener('orientationchange', onOrientationChange);
@@ -1693,7 +1693,7 @@ return false;">
 </script>
 
 <script>
-
+//Umage preload
 document.addEventListener("DOMContentLoaded", () => {
     const images = new Array();
 
@@ -1710,49 +1710,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		"css/elem_2.png", "css/elem_3_3.png", "css/elem_3.png", "css/elem_4_4.png", "css/elem_4.png", "css/elem_5_5.png", "css/elem_5.png", "css/elem_6_6.png", "css/elem_6.png", "css/house_0.png", "css/house_1.png", "css/house_2.png", "css/house_4.png", "css/house_5.png", "css/house_6.png", "css/house_left.png", "css/house_right.png", "css/house1.png", "css/house2.png",  "css/icon_information.png", "css/icon_minus.png", "css/icon_plus.png", "css/icon_shift_1.png",  "css/icon_shift_2.png", "css/icon_shift_3.png", "css/icon_shift_4.png", "css/icon_width.png",  "css/pipe_Metal.png", "css/pipe_Plastic.png", "css/texts.png", "css/wall_dark.png", "css/wall_light.png"
     );
 });
-
-</script>
-
-<!-- <script>window.devicePixelRatio
-
-if( window.devicePixelRatio>1 ){
-var img=document.getElementsByName('img');
-for(i=0; i<img.length;i++){
-img[i].width=img[i].width/2;
-img[i].height=img[i].height/2;
-}
-}</script> -->
-<script>
-// let button1 = document.getElementById('canvas2Ddivdocument');
-// let button2 = document.getElementById('renderCanvas');
-
-
-function switch2D()
-{
-document.getElementById('renderCanvas').style.display='none';
-document.getElementById('canvas2Ddiv').style.display='block';
-
-document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_active.png")';
-document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_inactive.png")';
-
-
-
-document.getElementById('iconZoomIn').style.display='none';
-document.getElementById('iconZoomOut').style.display='none';
-}
-
-function switch3D()
-{
-document.getElementById('renderCanvas').style.display='block';
-document.getElementById('canvas2Ddiv').style.display='none';
-
-document.getElementById('icon2D').style.backgroundImage='url("css/icon_2d_inactive.png")';
-document.getElementById('icon3D').style.backgroundImage='url("css/icon_3d_active.png")';
-
-document.getElementById('iconZoomIn').style.display='block';
-document.getElementById('iconZoomOut').style.display='block';
-
-}
 
 </script>
 </html>
