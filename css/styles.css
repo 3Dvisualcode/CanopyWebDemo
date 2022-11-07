@@ -1064,7 +1064,7 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-top: calc((55vw / -2) - (56px / -2));
+top: calc((45vw / -2));
     left: 0px;
     outline: none;
     overflow-x: hidden;
