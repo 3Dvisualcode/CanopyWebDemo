@@ -1036,8 +1036,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 35vmin;
-    top: calc((100% - 500px)/2);
+    height: 70vmin;
+    top: calc((80% - 590px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1047,7 +1047,7 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-    top: -145px;
+    top: 0px;
     left: 0px;
     outline: none;
     overflow-x: hidden;
