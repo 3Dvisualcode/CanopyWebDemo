@@ -1024,7 +1024,7 @@ html {
     width: 100vmin;
     height: calc(100% - 405px);
     outline: none;
-    top: 0px;
+    top: 15px;
     left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
