@@ -888,13 +888,12 @@ html {
 }
 
 .canvas2dFullScreen {
-  position: absolute !important;
   height: 100vmin !important;
   width: 100vmin !important;
   top: 0 !important;
   left: calc((100vmax - 100vmin)/2) !important;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 
@@ -966,11 +965,19 @@ html {
   overflow-y: hidden; */
 }
 
-.canvas2dFullScreen {
+.canvas2dFullScreen{
+  width: 100vmin !important;
+  height: 100vmin !important;
+  top: 0 !important;
+  left: 0 !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.canvas2dDivFullScreen {
   width: 100vmin !important;
   height: 100vmin !important;
   top: 125px !important;
-  left: 0px !important;
+  left: 0 !important;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 }
