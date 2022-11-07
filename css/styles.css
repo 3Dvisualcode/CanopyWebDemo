@@ -1068,8 +1068,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: calc(100% - 404px);
-    top: 0px;
+    height: calc(100% - 404px - 56px);
+    top: 56px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1079,12 +1079,16 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-    top: 56px;
+    top: 0;
     left: 0px;
     outline: none;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    /* mobile webkit 
+      top: 20% !important;
+  left: 0px !important;
+  */
   }
 
 
