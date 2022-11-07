@@ -957,6 +957,32 @@ html {
 
 @media screen and ( max-width: 468px ){
 
+ #canvas2Ddiv{
+    position: relative;
+    width: 100vmin;
+    height: calc(100% - 404px);
+    top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+
+  #canvas2d {
+    position: absolute;
+    width: 100vmin;
+    height: 100vmin;
+    top: 0;
+    left: 0px;
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    /* mobile webkit 
+      top: 20% !important;
+  left: 0px !important;
+  */
+  }
+
 .optionsBoxFullScreen {
   display: none !important;
   /* left: calc(100vw - 666px) !important; 	
@@ -974,11 +1000,11 @@ html {
   overflow-y: hidden !important;
 }
 .canvas2dDivFullScreen {
-  display: block !important;
-  top: calc(50vmax/2) !important;
-  position: absolute !important;
-  width: 100vmin !important;
-  height: 100vmin !important;
+  display: block  !important;
+top: calc(50vmax/2) !important;
+position: absolute  !important;
+width: 100vmin  !important;
+height: 100vmin  !important;
 }
 
 .iconInfoFullScreen {    
