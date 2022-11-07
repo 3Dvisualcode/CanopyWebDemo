@@ -1022,9 +1022,9 @@ html {
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: calc(100% - 405px);
+    height: calc(100% - 505px);
     outline: none;
-    top: 15px;
+    top: 55px;
     left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1036,8 +1036,8 @@ html {
   #canvas2Ddiv{
     position: relative;
     width: 100vmin;
-    height: 70vmin;
-    top: calc((80% - 590px)/2);
+    height: 45vmin;
+    top: calc((100% - 560px)/2);
     overflow-x: hidden;
     overflow-y: hidden;
   }
@@ -1047,7 +1047,7 @@ html {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-    top: 0px;
+    top: -130px;
     left: 0px;
     outline: none;
     overflow-x: hidden;
