@@ -1132,7 +1132,7 @@ top: calc((45vw / -2));
   #iconFullScreen {
     
     transform: scale(0.875);
-    top: calc(100% - 460px);
+    top: calc(56px + 55vw - 42px - 20px);
     left: 10px;
     background-image: url("../css/icon_full.png");
     background-repeat: no-repeat;
