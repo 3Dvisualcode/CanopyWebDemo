@@ -1169,3 +1169,18 @@ top: calc((45vw / -2));
     overflow-y: hidden;
   }
 }
+
+.xr-button-overlay
+{
+bottom: auto !important;	
+top: calc(56px + 55vw - 42px - 20px) !important;
+height: 42px !important;
+width: 42px !important;
+right: 12px !important;
+}
+
+.babylonVRicon
+{
+height: 42px !important;
+width: 42px !important;	
+}
