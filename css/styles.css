@@ -20,7 +20,7 @@
   background: transparent;
 }
 
-#canvas2d {
+#canvas2d_old {
   width: calc(100vw - 468px);
   height: calc(100vw - 468px);
   position: absolute;
@@ -30,6 +30,34 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   /* mobile webkit */
 }
+
+#canvas2d {
+
+  position: absolute;
+  top:  calc((100vh - 1200px) / 2);
+  left: calc((100vw - 1200px + 468px) / 2);
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  /* mobile webkit */
+}
+
+.canvas2dFullScreen {
+  top:  calc((100vh - 1200px) / 2) !important;
+  left: calc((100vw - 1200px) / 2) !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.canvasSVGFullScreen{
+
+  position: absolute;
+  top:  calc((100vh - 1200px) / 2);
+  left: calc((100vw - 1200px) / 2);
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  /* mobile webkit */
+}
+
 
 
 #builderOptions1,
@@ -872,9 +900,7 @@ html {
 }
 
 .lightbox-222553148237354{
-  margin-top: 16px; 
-  margin-bottom: 16px; 
-  margin-left: 145px;
+
 }
 
 .renderCanvasFullScreen {
@@ -887,14 +913,7 @@ html {
   overflow-y: hidden;
 }
 
-.canvas2dFullScreen {
-  height: 100vmin !important;
-  width: 100vmin !important;
-  top: 0 !important;
-  left: calc((100vmax - 100vmin)/2) !important;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-}
+
 
 
 .optionsBoxFullScreen {
@@ -904,29 +923,43 @@ html {
 }
 
 .btn.lightbox-222553148237354{
- padding-right: 61.44%;
- padding-bottom: 15%;
- margin-top: 0%;
- margin-left: 0%;
- background-color: #f3f3f3;
- position: absolute;
- color: black;
+width: 468px;
+height: 56px;
+margin-top: 0;
+margin-left: 0;
+
+background-color: #f3f3f3;
+position: absolute;
+color: black;
+ 
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+ 
 }
 
 .btn.lightbox-222553148237354:hover{
   color: rgb(255, 255, 255);
+  	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
  }
 
 .TextButton{
-  margin-top: 3px;
-  height: 20px;
-  width: 225px;
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 700;
- font-size: 16px;
- line-height: 55px;
- text-transform: uppercase;
+line-height: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #170E0E;
+position: absolute;
+top: 18px;
+left: 36px;
+text-align: center;
+margin: 0;
+padding: 0;
 }
 .btn.lightbox-222553148237354:hover { background-color: #ff0000;}
 
@@ -978,14 +1011,7 @@ html {
   overflow-y: hidden; */
 }
 
-.canvas2dFullScreen {
-  width: 100vmin !important;
-  height: 100vmin !important;
-  top: calc((100vmax - 100vmin)/2) !important;
-  left: 0 !important;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-}
+
 .canvas2dDivFullScreen {
   top: 0 !important;
   position: absolute !important;
@@ -1060,18 +1086,44 @@ html {
     overflow-y: hidden;
   }
   
-#canvas2d {
+  
+  
+#canvas2d_old {
     position: absolute;
     width: 100vmin;
     height: 100vmin;
-top: calc((45vw / -2));
+    top: calc((45vw / -2));
     left: 0px;
     outline: none;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
+  
+ #canvas2d {
+    position: absolute;
 
+    top: calc((45vw / -2));
+    left: 0px;
+	
+top:  calc((100vh - 1200px - 55vh) / 2);
+left: calc((100vw - 1200px) / 2);
+	
+	
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  } 
+  
+.canvas2dFullScreen {
+
+top:  calc((100vh - 1200px) / 2);
+left: calc((100vw - 1200px) / 2);
+
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
 
   #builderUI {
     position: fixed;
@@ -1164,6 +1216,8 @@ top: calc((45vw / -2));
   
 
 }
+
+
 
 .xr-button-overlay
 {
