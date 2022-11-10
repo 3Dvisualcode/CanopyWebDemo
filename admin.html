@@ -112,7 +112,8 @@
 
 
 	<canvas id="renderCanvas" style="display: block;"></canvas>
-	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;"><canvas id="canvas2d" width="1200" height="1200"></canvas></div>
+	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;"></div>
+	<svg id="canvas2d" width="1200" height="1200" style="display: none;></svg>
 
 	<div id="waterMark" style="display:none !important;"></div>
 
@@ -1350,7 +1351,7 @@ return false;">
 </div>
 
 
-<!-- обкладка крыши ПОПЕРЕЧНЫЕ !-->
+
 <div class="itemDiv">
 	<div class="itemListLeft">Liggers 5 x 15 cm</div>
 	<div class="itemListCenter" id="">m</div>
@@ -1599,35 +1600,25 @@ return false;">
 
 
 
-		<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock8" onclick="">
-			<div class="builderBlockTextInactive" id="builderBlockText8">Opslaan + offerte</div>
-			<div class="" id="builderArrow8"></div>
-		<script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock8" onclick="">
+<div class="builderBlockTextInactive" id="builderBlockText8">Opslaan + offerte</div>
+<div class="" id="builderArrow8"></div>
+</div>
 
-			function updateLinkInIFrame()
-			{
-				//console.log(JFL_222553148237354);
-				JFL_222553148237354.iframeParameters= {'3durl': window.appState['linkAdmin']};
+<div id="builderOptions8" style="display: none;"></div>
 
-				//input_50
-				//lightbox-222553148237354
-
-				// document.getElementById('shareLink').value
-
-				//document.getElementById("lightbox-222553148237354").contentWindow.document.getElementById("input_50").value = 777;
-
-				console.log(document.getElementById("lightbox-222553148237354"));
-
-				setTimeout(	function(){document.getElementById("lightbox-222553148237354").contentWindow.document.getElementById("input_50").value = 	window.appState['linkAdmin'];}, 5000);
-				//window.location.hash = '#' + encoded;
-			}
+						
+<script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+function updateLinkInIFrame()
+{
+JFL_222553148237354.iframeParameters= {'3durl': window.appState['linkAdmin']};
+setTimeout(function(){document.getElementById("lightbox-222553148237354").contentWindow.document.getElementById("input_50").value = 	window.appState['linkAdmin'];}, 5000);
+}
 
 
 
-
-								var uniquelink = "";
-
-							 var JFL_222553148237354 = new JotformFeedback({
+var uniquelink = "";
+var JFL_222553148237354 = new JotformFeedback({
 							formId: '222553148237354',
 							base: 'https://form.jotform.com/',
 							windowTitle: '',
@@ -1642,15 +1633,14 @@ return false;">
 							width: 700,
 							openOnLoad: false
 							});
-			</script>
-			<div class="btn lightbox-222553148237354" style="" onclick="updateLinkInIFrame();">
-				<p class="TextButton" id="menuOrderbutton">6. Opslaan + offerte</p>
-			</div>
-			</div>
-		<div id="builderOptions8" style="display: none;">
-		</div>
-
-	</div>
+</script>
+	
+	
+<div class="btn lightbox-222553148237354" style="" onclick="updateLinkInIFrame();">
+<p class="TextButton builderBlockTextInactive" id="menuOrderbutton">6. Opslaan + offerte</p>
+<div class="builderArrowInactive" id="builderArrow9"></div>
+</div>							
+</div>
 
 
 
@@ -1691,6 +1681,10 @@ return false;">
 	//if (width < 980)
 	viewportmeta.content = "width=468, user-scalable=no";
 	}
+							    
+							    
+if (typeof scale2d === 'function'){scale2d();}								    
+							    
 	}
 	window.addEventListener('orientationchange', onOrientationChange);
 	window.addEventListener('resize', onOrientationChange);
