@@ -111,10 +111,9 @@
 <body>
 
 	<canvas id="renderCanvas" style="display: block;"></canvas>
-	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;">
-	<canvas id="canvas2d" width="1200" height="1200"></canvas>
-	<svg id="canvasSVG" width="1200" height="1200"></svg>
-	</div>
+	<div class="canvas2Ddiv" id="canvas2Ddiv" style="display: none;"></div>
+	<svg id="canvas2d" width="1200" height="1200"></svg>
+
 
 	<div id="waterMark" style="display:none !important;"></div>
 
@@ -1593,17 +1592,13 @@ return false;">
 
 </div>
 
-
-
-<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock8" onclick="">
-<div class="builderBlockTextInactive" id="builderBlockText8">Opslaan + offerte</div>
-<div class="" id="builderArrow8"></div>
-
-
-
-</div>
-<div id="builderOptions8" style="display: none;"></div>
-		
+<div style="display: none;">
+	<div class="builderBlockStyleInactive waves-effect waves-light z-depth-0" id="builderBlock8" onclick="">
+	<div class="builderBlockTextInactive" id="builderBlockText8">Opslaan + offerte</div>
+	<div class="" id="builderArrow8"></div>
+	</div>
+	<div id="builderOptions8" style="display: none;"></div>
+</div>		
 
 		
 <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript">
@@ -1680,6 +1675,7 @@ var JFL_222553148237354 = new JotformFeedback({
 	//if (width < 980)
 	viewportmeta.content = "width=468, user-scalable=no";
 	}
+	if (typeof scale2d === 'function'){scale2d();}	
 	}
 	window.addEventListener('orientationchange', onOrientationChange);
 	window.addEventListener('resize', onOrientationChange);
