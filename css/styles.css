@@ -1029,7 +1029,7 @@ padding: 0;
   background-image: url("../css/icon_full_back.png") !important;	
   background-repeat: no-repeat !important;	
   right: calc(100vw - 58px) !important;	
-  top: calc(100vh - 58px) !important; 
+  top: calc(100% - 58px) !important; 
   overflow-x: hidden !important; 
   overflow-y: hidden !important; 
 }
@@ -1077,7 +1077,7 @@ padding: 0;
   }
 
 #canvas2Ddiv{
-    position: relative;
+    position: absolute;
     width: 100vmin;
     height: 55vw;
     top: 56px;
@@ -1100,14 +1100,10 @@ padding: 0;
   }
   
  #canvas2d {
-    position: absolute;
-
-    top: calc((45vw / -2));
-    left: 0px;
-	
-top:  calc((100vh - 1200px - 55vh) / 2);
+position: absolute;
+top:  calc((100vh - 1200px - 55vh) / 2 - 76px);
 left: calc((100vw - 1200px) / 2);
-	
+
 	
     outline: none;
     overflow-x: hidden;
