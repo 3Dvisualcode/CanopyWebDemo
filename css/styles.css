@@ -1000,7 +1000,7 @@ padding: 0;
 @media screen and ( max-width: 468px ){
 
  #canvas2Ddiv{
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 55vw;
     top: 56px;
