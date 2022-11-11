@@ -1658,16 +1658,24 @@ var JFL_222553148237354 = new JotformFeedback({
 
 <script>
 	function onOrientationChange() {
-	  let width  = document.documentElement.clientWidth;
-	  let height = document.documentElement.clientHeight;
-	  let landscape = width > height;
-	  let viewportmeta = document.querySelector('meta[name="viewport"]');
+let width  = document.documentElement.clientWidth;
+let height = document.documentElement.clientHeight;
+let landscape = width > height;
+let viewportmeta = document.querySelector('meta[name="viewport"]');
 
+let ua = window.navigator.userAgent;
+let iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+let webkit = !!ua.match(/WebKit/i);
+let iOSSafari = iOS && webkit && !ua.match(/CriOS/i);		
+		
+		
 	if(landscape)
 	{
 	// adding zoom 0.5
 	//if (width < 900)
 	viewportmeta.content = "width=device-width, initial-scale=0.33, user-scalable=no";
+	if (iOSSafari == true) document.getElementById("canvas2Ddiv").style.marginTop = '0';
+
 	}
 	else
 	{
@@ -1675,6 +1683,8 @@ var JFL_222553148237354 = new JotformFeedback({
 
 	//if (width < 980)
 	viewportmeta.content = "width=468, user-scalable=no";
+	if (iOSSafari == true) document.getElementById("canvas2Ddiv").style.marginTop = '56px';
+		
 	}
 	if (typeof scale2d === 'function'){scale2d();}	
 	}
