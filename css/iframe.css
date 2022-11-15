@@ -3,6 +3,18 @@
 display: none !important;	
 }
 
+#iconZoomIn
+{
+top: calc(50vh - 48px - 4px) !important;	
+}	
+
+
+
+#iconZoomOut 
+{
+top: calc(50vh + 4px);	
+}	
+
 #icon3D
 {
 top: 10px !important;	
@@ -38,6 +50,16 @@ top: 0 !important;
 #builderUI {	
 top: 70vw !important;
 height: calc(100vh - 70vw) !important;
+}
+
+#iconZoomIn 
+{
+top: 10px !important;	
+}
+	
+#iconZoomOut 
+{
+top: 62px !important;
 }
 	
 
