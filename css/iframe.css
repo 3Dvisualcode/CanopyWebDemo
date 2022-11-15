@@ -44,7 +44,7 @@ top: 0 !important;
 
 #canvas2d
 {
-top:calc((100vh - 1200px - 70vh) / 2 - 76px);
+top:calc((100vh - 1200px - 70vw) / 2 - 76px);
 }
 
 
