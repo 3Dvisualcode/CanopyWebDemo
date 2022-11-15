@@ -25,10 +25,7 @@ top: 10px !important;
 top: 58px !important;
 }
 
-.xr-button-overlay
-{
-	
-}
+
 
 #builderUI {
   top: 0 !important;
@@ -76,7 +73,12 @@ top: 62px !important;
 
 #iconFullScreen
 {
-top: calc(70vw - 42px - 20px);
+top: calc(70vw - 42px - 20px) !important;
+}
+
+.xr-button-overlay
+{
+top: calc(70vw - 42px - 20px) !important;	
 }
 	
 }
