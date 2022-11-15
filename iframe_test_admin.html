@@ -18,8 +18,11 @@
 
 <iframe id="adminIframe" src="iframe_admin.html" style="width:100vw; height: 80vh; border: 0; overflow: hidden;" border="0"></iframe> 
 <script>
-let URLhash =  window.top.location.hash.slice(1);
+if(window.location.hash)
+{
+let URLhash =  window.location.hash.slice(1);
 document.getElementById('adminIframe').src = document.getElementById('adminIframe').src + '#' + URLhash;
+}
 </script>
 
 
