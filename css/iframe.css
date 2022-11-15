@@ -42,6 +42,12 @@ top: 58px !important;
 top: 0 !important;	
 }	
 
+#canvas2d
+{
+top:calc((100vh - 1200px - 70vh) / 2 - 76px);
+}
+
+
 #renderCanvas 
 {
 top: 0 !important;	
@@ -62,6 +68,11 @@ top: 10px !important;
 top: 62px !important;
 }
 	
+#icon2D
+{
+top: 62px !important;
+}
+
 
 #iconFullScreen
 {
