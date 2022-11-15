@@ -40,5 +40,10 @@ top: 70vw !important;
 height: calc(100vh - 70vw) !important;
 }
 	
+
+#iconFullScreen
+{
+top: calc(70vw - 42px - 20px);
+}
 	
 }
