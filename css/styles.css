@@ -1001,7 +1001,7 @@ padding: 0;
  #canvas2Ddiv{
     position: absolute;
     width: 100vw;
-    height: 70vw;
+    height: 85vw;
     top: 56px;
     left: 0px;
     overflow-x: hidden;
@@ -1079,7 +1079,7 @@ padding: 0;
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: 70vw;
+    height: 85vw;
     outline: none;
     top: 56px;
     left: 0px;
@@ -1093,7 +1093,7 @@ padding: 0;
 #canvas2Ddiv{
     position: absolute;
     width: 100vmin;
-    height: 70vw;
+    height: 85vw;
     top: 56px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1136,9 +1136,9 @@ left: calc((100vw - 1200px) / 2);
 
   #builderUI {
     position: fixed;
-    top: calc(56px + 70vw);
+    top: calc(56px + 85vw);
     width: 468px;
-    height: calc(100vh - 70vw - 56px);
+    height: calc(100vh - 85vw - 56px);
     left: 0;
     background-color: #FFFFFF;
     overflow-x: hidden;
@@ -1193,7 +1193,7 @@ left: calc((100vw - 1200px) / 2);
   #iconFullScreen {
 
     transform: scale(0.875);
-    top: calc(56px + 70vw - 42px - 20px);
+    top: calc(56px + 85vw - 42px - 20px);
     left: 10px;
     background-image: url("../css/icon_full.png");
     background-repeat: no-repeat;
@@ -1237,7 +1237,7 @@ top: calc(100vh - 58px) !important;
 .xr-button-overlay
 {
 bottom: auto !important;
-top: calc(56px + 70vw - 42px - 20px) !important;
+top: calc(56px + 85vw - 42px - 20px) !important;
 height: 42px !important;
 width: 42px !important;
 right: 12px !important;
