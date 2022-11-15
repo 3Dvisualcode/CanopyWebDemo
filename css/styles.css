@@ -392,7 +392,7 @@ html {
 
 
 
- 
+
 .optionsTopText1 {
 
   position: absolute;
@@ -461,7 +461,7 @@ html {
   text-align: right;
 
   color: #6C6C6C;
-  
+
 
 }
 
@@ -842,7 +842,7 @@ html {
   padding-left: 36px;
   width: 30px;
 
-  
+
 }
 
 
@@ -900,9 +900,9 @@ html {
   color: #000000;
   padding-left: 340px;
 
-  border-bottom-style: none !important; 
-  border-bottom-width: 20px !important; 
-  margin-top: -19px !important; 
+  border-bottom-style: none !important;
+  border-bottom-width: 20px !important;
+  margin-top: -19px !important;
   margin-bottom: 0px !important;
 }
 
@@ -915,7 +915,7 @@ html {
 .renderCanvasFullScreen {
   position: absolute !important;
   width: 100vw !important;
-  height: 100vh !important;  
+  height: 100vh !important;
   left: 0px !important;
   top: 0px !important;
   overflow-x: hidden;
@@ -926,8 +926,8 @@ html {
 
 
 .optionsBoxFullScreen {
-  left: calc((100vw + 468px)/2 - 632px) !important; 
-  /*top: calc(100vh - 120px) !important; 
+  left: calc((100vw + 468px)/2 - 632px) !important;
+  /*top: calc(100vh - 120px) !important;
   transform: scale(0.875); */
 }
 
@@ -939,11 +939,11 @@ padding: 0;
 background-color: #f3f3f3;
 position: relative;
 color: black;
- 
+
 -webkit-box-shadow: none;
 -moz-box-shadow: none;
 box-shadow: none;
- 
+
 }
 
 .btn.lightbox-222553148237354:hover{
@@ -951,7 +951,7 @@ color: #ffffff;
 -webkit-box-shadow: none;
 -moz-box-shadow: none;
 box-shadow: none;
-background-color: #ff0000;	
+background-color: #ff0000;
  }
 
 .TextButton{
@@ -983,14 +983,14 @@ padding: 0;
 
 
 .iconFullScreenFullScreen {
-  display: block !important;	
+  display: block !important;
   background-image: url("../css/icon_full_back.png") !important;
   background-repeat: no-repeat !important;
   right: 20px !important;
 }
 
 .iconInfoFullScreen {
-  
+
   display: block !important;
   right: 20px !important;
 }
@@ -1001,14 +1001,14 @@ padding: 0;
  #canvas2Ddiv{
     position: absolute;
     width: 100vw;
-    height: 55vw;
+    height: 70vw;
     top: 56px;
     left: 0px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
 
-@media not all and (min-resolution:.001dpcm) { 
+@media not all and (min-resolution:.001dpcm) {
 @media {
  #canvas2Ddiv{
  top: 112px;
@@ -1018,8 +1018,8 @@ padding: 0;
 
 .optionsBoxFullScreen {
   display: none !important;
-  /* left: calc(100vw - 666px) !important; 	
-  top: calc(100% - 85px) !important; 
+  /* left: calc(100vw - 666px) !important;
+  top: calc(100% - 85px) !important;
   overflow-x: hidden;
   overflow-y: hidden; */
 }
@@ -1032,35 +1032,35 @@ padding: 0;
   height: 100vh !important;
 }
 
-.iconInfoFullScreen {    
+.iconInfoFullScreen {
   display: none !important;
-  /* left: calc(100vw - 58px) !important;	
+  /* left: calc(100vw - 58px) !important;
   top: calc(100% - 58px) !important;  */
 }
 
 .iconFullScreenFullScreen {
-  display: block !important;	
-  background-image: url("../css/icon_full_back.png") !important;	
-  background-repeat: no-repeat !important;	
-  right: calc(100vw - 58px) !important;	
-  top: calc(100% - 58px) !important; 
-  overflow-x: hidden !important; 
-  overflow-y: hidden !important; 
+  display: block !important;
+  background-image: url("../css/icon_full_back.png") !important;
+  background-repeat: no-repeat !important;
+  right: calc(100vw - 58px) !important;
+  top: calc(100% - 58px) !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 
 
 .iconZoomInFullScreen {
-  right: 10px !important;	
+  right: 10px !important;
   top: 72px !important;
 }
 
-.iconZoomOutFullScreen { 
-  right: 10px !important;	
+.iconZoomOutFullScreen {
+  right: 10px !important;
   top: 120px !important;
 }
-  
-  
+
+
   @-ms-viewport {
     width: 468px;
   }
@@ -1075,11 +1075,11 @@ padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  
+
   #renderCanvas {
     position: absolute;
     width: 100vmin;
-    height: 55vw;
+    height: 70vw;
     outline: none;
     top: 56px;
     left: 0px;
@@ -1093,14 +1093,14 @@ padding: 0;
 #canvas2Ddiv{
     position: absolute;
     width: 100vmin;
-    height: 55vw;
+    height: 70vw;
     top: 56px;
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  
-  
-  
+
+
+
 #canvas2d_old {
     position: absolute;
     width: 100vmin;
@@ -1112,19 +1112,19 @@ padding: 0;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
-  
+
  #canvas2d {
 position: absolute;
 top:  calc((100vh - 1200px - 55vh) / 2 - 76px);
 left: calc((100vw - 1200px) / 2);
 
-	
+
     outline: none;
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  } 
-  
+  }
+
 .canvas2dFullScreen {
 
 top:  calc((100vh - 1200px) / 2);
@@ -1136,19 +1136,19 @@ left: calc((100vw - 1200px) / 2);
 
   #builderUI {
     position: fixed;
-    top: calc(56px + 55vw);
+    top: calc(56px + 70vw);
     width: 468px;
-    height: calc(100vh - 55vw - 56px);
+    height: calc(100vh - 70vw - 56px);
     left: 0;
     background-color: #FFFFFF;
     overflow-x: hidden;
     overflow-y: scroll;
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
     padding-bottom: 15px;
-    
+
   }
 
-  
+
 
   #builderOptions7{
     overflow-y: hidden;
@@ -1180,7 +1180,7 @@ left: calc((100vw - 1200px) / 2);
     background-repeat: no-repeat;
     overflow-y: hidden;
   }
-  
+
   #iconZoomOut {
     transform: scale(0.875);
     top: 120px;
@@ -1191,9 +1191,9 @@ left: calc((100vw - 1200px) / 2);
   }
 
   #iconFullScreen {
-    
+
     transform: scale(0.875);
-    top: calc(56px + 55vw - 42px - 20px);
+    top: calc(56px + 70vw - 42px - 20px);
     left: 10px;
     background-image: url("../css/icon_full.png");
     background-repeat: no-repeat;
@@ -1214,7 +1214,7 @@ left: calc((100vw - 1200px) / 2);
   #optionsBox {
     display: none;
     /* overflow-y: hidden;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     transform: scale(0.4);
     width: 864px;
     left: -198px;
@@ -1222,13 +1222,13 @@ left: calc((100vw - 1200px) / 2);
     background-color: #FFFFFF;
     overflow-y: hidden; */
   }
-  
+
   .xr-button-overlayFullScreen
   {
-top: calc(100vh - 58px) !important; 
+top: calc(100vh - 58px) !important;
 
   }
-  
+
 
 }
 
@@ -1236,8 +1236,8 @@ top: calc(100vh - 58px) !important;
 
 .xr-button-overlay
 {
-bottom: auto !important;	
-top: calc(56px + 55vw - 42px - 20px) !important;
+bottom: auto !important;
+top: calc(56px + 70vw - 42px - 20px) !important;
 height: 42px !important;
 width: 42px !important;
 right: 12px !important;
@@ -1246,6 +1246,6 @@ right: 12px !important;
 .babylonVRicon
 {
 height: 42px !important;
-width: 42px !important;	
-margin: 0px !important;	 
+width: 42px !important;
+margin: 0px !important;
 }

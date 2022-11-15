@@ -1,0 +1,44 @@
+#topDiv, #logotype 
+{
+display: none !important;	
+}
+
+#icon3D
+{
+top: 10px !important;	
+}	
+
+#icon2D
+{
+top: 58px !important;
+}
+
+.xr-button-overlay
+{
+	
+}
+
+#builderUI {
+  top: 0 !important;
+  height: 100vh !important;
+}
+
+@media screen and ( max-width: 468px )
+{
+#canvas2Ddiv
+{
+top: 0 !important;	
+}	
+
+#renderCanvas 
+{
+top: 0 !important;	
+}
+	
+#builderUI {	
+top: 70vw !important;
+height: calc(100vh - 70vw) !important;
+}
+	
+	
+}
