@@ -1145,8 +1145,7 @@ left: calc((100vw - 1200px) / 2);
     overflow-x: hidden;
     overflow-y: auto;
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
-    padding-bottom: 0;
-    padding-bottom: calc(6rem + env(safe-area-inset-bottom));
+    padding-bottom: 6rem;
   }
 
 
