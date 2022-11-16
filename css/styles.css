@@ -1115,7 +1115,8 @@ padding: 0;
 
  #canvas2d {
 position: absolute;
-top:  calc((100vh - 1200px - 55vh) / 2 - 76px);
+/* top:  calc((100vh - 1200px - 55vh) / 2 - 76px); */
+top:  calc((100vh - 900px - 90vh) / 2 - 6px);
 left: calc((100vw - 1200px) / 2);
 
 
@@ -1145,7 +1146,7 @@ left: calc((100vw - 1200px) / 2);
     overflow-y: auto;
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
     padding-bottom: 0;
-    padding-bottom: calc(7rem + env(safe-area-inset-bottom));
+    padding-bottom: calc(6rem + env(safe-area-inset-bottom));
   }
 
 
