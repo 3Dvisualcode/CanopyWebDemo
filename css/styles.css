@@ -1142,12 +1142,12 @@ left: calc((100vw - 1200px) / 2);
     left: 0;
     background-color: #FFFFFF;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     box-shadow: 0px 0px 18px rgba(52, 52, 52, 0.2);
     padding-bottom: 15px;
     bottom: 0;
-    bottom: env(safe-area-inset-bottom);
-  
+    padding-bottom: env(safe-area-inset-bottom);
+    margin-top: 100px;
   }
 
 
