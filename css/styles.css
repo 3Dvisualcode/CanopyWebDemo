@@ -843,6 +843,10 @@ top: 20px;
 position: absolute;
 }
 
+.itemDivPrice
+{
+ height: 60px !important; 
+}
 
 .itemDiv {
   position: relative;
