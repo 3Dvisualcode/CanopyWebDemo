@@ -836,13 +836,11 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  line-height: 19px;
   color: #000000;
-  padding-top: 18px;
-  padding-left: 36px;
-  width: 30px;
-
-
+  width: 40px;
+left: 18px;
+top: 20px;
+position: absolute;
 }
 
 
@@ -896,14 +894,15 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  line-height: 19px;
   color: #000000;
-  padding-left: 340px;
-
-  border-bottom-style: none !important;
-  border-bottom-width: 20px !important;
-  margin-top: -19px !important;
-  margin-bottom: 0px !important;
+  
+left: 0;
+top: 20px;
+position: absolute;
+text-align: right;
+width: 420px;
+}
+  
 }
 
 .row {
